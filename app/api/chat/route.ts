@@ -25,7 +25,7 @@ export async function POST(request: Request) {
     if (!model) {
       console.error("GEMINI_MODEL is missing.");
       return NextResponse.json(
-        { error: "Gemini model is missing. Check your .env.local file." },
+        { error: "Gemini model is missing bae. Check your .env.local file." },
         { status: 500 }
       );
     }
